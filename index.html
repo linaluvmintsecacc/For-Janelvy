@@ -1,60 +1,60 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>This Web Has Been Shut</title>
+  <title>Notice</title>
   <style>
     body {
-      background: #fff;
-      color: #222;
+      background-color: #f9f9f9;
       font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
       margin: 0;
-      padding: 40px;
+      text-align: center;
+      color: #333;
     }
-    .error-container {
-      max-width: 600px;
+
+    .icon {
+      font-size: 50px;
+      margin-bottom: 20px;
     }
+
     h1 {
-      font-size: 1.5rem;
-      font-weight: normal;
-      margin: 16px 0;
+      font-size: 24px;
+      margin-bottom: 10px;
     }
+
     p {
+      font-size: 16px;
+      margin-bottom: 20px;
       color: #555;
-      margin: 8px 0;
     }
-    .sad-tab {
-      width: 72px;
-      height: 72px;
-      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"><path fill="%23999" d="M8 8h56v56H8z"/><path fill="%23fff" d="M14 14h44v44H14z"/><circle cx="27" cy="30" r="3"/><circle cx="45" cy="30" r="3"/><path d="M27 46c4-4 14-4 18 0" stroke="%23000" stroke-width="2" fill="none"/></svg>') no-repeat center/contain;
-    }
+
     a {
       color: #1a73e8;
+      font-weight: bold;
       text-decoration: none;
+      font-size: 16px;
     }
+
     a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="error-container">
-    <div class="sad-tab"></div>
-    <h1>This web has been shut down</h1>
-    <p>This web has been shut down by a GitHub user (the owner of this web), <strong>linaluvmintsecacc</strong>.</p>
-    <p>Please check back after the owner's update</p>
-    <p>Error code: <strong>ERR_SHUTDOWN_BY_OWNER</strong></p>
-  </div>
-  <script>
-    // After 5 seconds, simulate a shutdown effect
-    setTimeout(() => {
-      document.body.innerHTML = '<h2>Connection Closed</h2><p>The web is currently shut down by the owner. Please try again later after the owner's update</p>';
-      document.body.style.fontFamily = 'Arial, sans-serif';
-      document.body.style.color = '#555';
-      document.body.style.padding = '40px';
-    }, 5000);
-  </script>
+  <div class="icon">🔔</div>
+  <h1>This website has been converted into a personal page</h1>
+  <p>
+    This site is now the personal homepage of the new owner.
+  </p>
+  <p>
+    Visit the new page here: 
+    <a href="https://newownerpage.com" target="_blank">newownerpage.com</a>
+  </p>
 </body>
 </html>
